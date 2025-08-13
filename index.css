@@ -1,0 +1,30 @@
+ body {
+        font-family: Arial, sans-serif;
+        background: #800679;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #clock {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3rem;
+        color: #00ffea;
+        background: #0bc55f;
+        padding: 15px 30px;
+        border-radius: 100px;
+        border: 2px solid #00ffea;
+        box-shadow: 0 0 15px rgba(0, 255, 234, 0.8),
+                    0 0 30px rgba(0, 255, 234, 0.4);
+        letter-spacing: 2px;
+        animation: pulse 2s infinite;
+    }
+
+    #message {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
